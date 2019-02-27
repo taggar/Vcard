@@ -9,6 +9,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
+    background-position: center;
 /*     filter: blur(8px);
     -webkit-filter: blur(8px);
   */   
