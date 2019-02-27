@@ -4,6 +4,14 @@
 html {
     width: 100%;
     height: 100%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+body {
+    margin: 0;
     background: url("../assets/san-diego.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -13,8 +21,9 @@ html {
 /*     filter: blur(8px);
     -webkit-filter: blur(8px);
   */   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    color: white;
+}
+
+div.page {
 }
 
 .selfie {
@@ -35,6 +44,7 @@ div.main {
     flex-direction: row;
     border-radius: 20px;
     padding: 1em;
+    height: 90%;
 }
 
 div.pic {
